@@ -1,2 +1,2 @@
 #!/bin/bash
-getpwuid()
+dir=$(PWD)
