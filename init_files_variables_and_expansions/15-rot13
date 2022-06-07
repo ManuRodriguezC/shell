@@ -1,2 +1,2 @@
 #!/bin/bash
-base64 rot 13
+base64 'rot13'
