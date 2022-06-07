@@ -1,2 +1,2 @@
-#!/bin/bseash
+#!/bin/bash
 base64 | base64 -d
