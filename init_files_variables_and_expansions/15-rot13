@@ -1,0 +1,2 @@
+#!/bin/bash
+base64 rot 13
