@@ -1,2 +1,2 @@
 #!/bin/bash
-base64 'rot13' | base64 -d
+echo "rot13" | base64
