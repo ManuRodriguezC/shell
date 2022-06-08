@@ -1,2 +1,2 @@
 #!/bin/bash
-WATER="water" | STIR="stir" | bestchol=("WATER"+"STIR") | printf="bestchol"
+water="WATER" | stir="STIR" | bestchol=("water"+"stir") | printf="bestchol"
