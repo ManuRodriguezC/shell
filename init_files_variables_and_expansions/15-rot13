@@ -1,2 +1,2 @@
 #!/bin/bash
-base64 | rot13 -b
+tr 'A-Za-z' 'N-ZA.Mn-za-m'
