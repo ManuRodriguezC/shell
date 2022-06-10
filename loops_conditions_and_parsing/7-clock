@@ -9,4 +9,10 @@ while [ $h -le 12 ]
 do
 	echo "Hour: $h"
 	((h++))
+	
+	if [ $i -lt 60 ]
+		echo "$i"
+	fi
+	((i++))
+
 done
