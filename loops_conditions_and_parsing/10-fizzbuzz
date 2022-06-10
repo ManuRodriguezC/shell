@@ -18,6 +18,7 @@ do
         then
                 echo "Buzz"
         echo "$n"
-	fi
+	
         ((n++))
+	fi
 done
