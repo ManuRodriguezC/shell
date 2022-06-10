@@ -3,7 +3,7 @@
 
 case=0
 
-while [ $case -lt 20]
+while [ $case -lt 20 ]
 
 do
 	if [ $case -eq 3 ]
