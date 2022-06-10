@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+#
+
+conten=0
+list=$ls
+
+while conten in 
