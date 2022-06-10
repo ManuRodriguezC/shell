@@ -6,9 +6,9 @@ n=1
 while [ $n -le 100 ]
 
 do
-	if [ $((n%3)) == 0 -a $((n%5)) == 0 ]
+	if [ $((n%3)) = 0 -a $((n%5)) = 0 ]
 	then
-		echo $n"FizzBuzz"
+		echo "FizzBuzz"
 	
 	elif [ $((n%3)) == 0 ]
         then
