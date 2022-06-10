@@ -1,21 +1,19 @@
 #!/usr/bin/env bash
 #
 
-case=0
+i=0
 
-while [ $case -lt 20 ]
-
+while [ $i -lt 20 ]
 do
-	if [ $case -eq 3 ]
-	then
+	case $i in
+		3 )
 		echo "bad luck from China"
-	elif [ $case -eq 8 ]
-	then
+		;;
+		8)
 		echo "bad luck from Japan"
-	elif [ $case -eq 16 ]
-	then
+		;;
+		16)
 		echo "bad luck from Italy"
-	else
-		((case++))
-	fi
+		;;
+	esac
 done
