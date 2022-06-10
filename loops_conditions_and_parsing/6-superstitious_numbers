@@ -3,17 +3,19 @@
 
 i=0
 
-while [ $i -lt 20 ]
+while [ $i -lt 20 ] ;
+
 do
-	case $i in
-		3 )
-		echo "bad luck from China"
-		;;
-		8)
-		echo "bad luck from Japan"
-		;;
-		16)
-		echo "bad luck from Italy"
-		;;
+	case in $i
+		3)
+			echo "bad luck from China"
+			;;
+		2)
+			echo "bad luck from Japan"
+			;;
+		3)
+			echo "bad luck from Italy"
+			;;
 	esac
 done
+
