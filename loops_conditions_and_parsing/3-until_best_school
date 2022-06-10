@@ -2,9 +2,8 @@
 #This
 
 i=0
-o=10
 
-until [ $i -lt o$]
+until (( $i -gt 10))
 do
 	echo "Best School"
 	((i++))
