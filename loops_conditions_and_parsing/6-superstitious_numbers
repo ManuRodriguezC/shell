@@ -11,7 +11,9 @@ do
 		"8") echo "bad luck from Japan"
 			;;
 		"17") echo "bad luck from Italy"
+			
+		((i++))
 	esac
-	((i++))
+	
 done
 
