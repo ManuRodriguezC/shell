@@ -6,4 +6,5 @@ n=1
 while [ $n -le 100 ]
 do
 	echo "$n"
+	((n++))
 done
