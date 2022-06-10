@@ -13,6 +13,7 @@ do
 	then
 		echo "bad luck from Japan"
 	else [ $case -eq 16 ]
+	then
 		echo "bad luck from Italy"
 	fi
 	(( case++ ))
