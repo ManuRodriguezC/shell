@@ -2,16 +2,22 @@
 #
 school=""
 
-while [ $school -eq -e ]
-do
-	if
-		echo "school file exists"
+if [ $school -eq -e ]
+	echo "school file exists"
+
+	if [ $school -ne -s ]
+		echo "school file is emply"
+		
+		if [ $school -eq -f ]
+			echo "school is a regular file"
+		else
 	else
-		echo "school file does not exist"
-	fi
+		echo "school file is not emply"
+else
+	echo "school file does not exist"
+	
 
 
 
 
-
-done 	
+ 	
