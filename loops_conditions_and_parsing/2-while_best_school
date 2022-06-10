@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #
 i=0
-while [$i -le 10]
-	echo "
-	Best School" i=$ ((i++))
+while(i<10){
+	i++;
+}
+echo "Best School"
+
