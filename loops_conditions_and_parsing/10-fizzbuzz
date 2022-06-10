@@ -17,8 +17,10 @@ do
 	elif [ $((n%5)) == 0 ]
         then
                 echo "Buzz"
-        echo "$n"
+	fi
+		
+	echo "$n"
 	
         ((n++))
-	fi
+	
 done
