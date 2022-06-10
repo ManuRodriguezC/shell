@@ -8,15 +8,18 @@ while [ $i -lt 20 ] ;
 do
 	case in $i
 
-		3)
+		1)
+			$i -eq 3
 			echo "bad luck from China"
 			;;
 
-		8)
+		2)
+			$i -eq 8
 			echo "bad luck from Japan"
 			;;
 
-		16)
+		3)
+			$i -eq 16
 			echo "bad luck from Italy"
 			;;
 
