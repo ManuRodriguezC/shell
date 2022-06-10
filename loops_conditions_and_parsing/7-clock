@@ -13,10 +13,9 @@ do
 	while [ $i -lt 60 ]
 	
 	do
-	if [ $i -ne 60 ]
+	 	[ $i -ne 60 ]
 		echo "$i"
-		((i++))
-	fi 
+		((i++)) 
 	return "$h"
 
 	done
