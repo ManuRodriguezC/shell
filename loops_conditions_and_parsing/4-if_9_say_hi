@@ -4,11 +4,10 @@ i=0
 
 while [ $i -lt 10 ]
 do
+	echo "Best School"
+	((i++))
 	if
-		echo "Best School"
-		(($i -lt 8))
-		if
-			echo "Hi"
-			((i -lt 9))
-			if
-				echo "Best School"
+		echo "Hi"
+		((i -eq 9))
+done
+
