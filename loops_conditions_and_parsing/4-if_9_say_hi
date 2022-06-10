@@ -1,11 +1,14 @@
 #!/usr/bin/env bash
 #
+
 i=0
 
 while [ $i -lt 10 ]
-	echo "Best School"
-	((i++))
-	if
+do
+	if [ $i -eq 9 ]
+	then
 		echo "Hi"
-		((i -eq 9))
-
+	fi
+	echo "Best School" 
+	((i++))
+done
