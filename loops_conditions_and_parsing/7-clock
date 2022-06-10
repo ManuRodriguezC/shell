@@ -16,7 +16,7 @@ do
 		echo "$i"
 		((i++))
 	
-		return $i
+		return "Hour"
 
 	done
 done
