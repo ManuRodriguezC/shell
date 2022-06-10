@@ -10,7 +10,7 @@ if [ $school -eq -e ]
 		
 		if [ $school -eq -f ]
 			echo "school is a regular file"
-		else
+		
 	else
 		echo "school file is not emply"
 else
