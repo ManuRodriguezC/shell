@@ -13,10 +13,6 @@ do
 	while [ $i -lt 60 ]
 	
 	do
-	if [ $i -eq 60 ]
-	then 
-		echo "$h"
-	fi
 		echo "$i"
 		((i++))
 
