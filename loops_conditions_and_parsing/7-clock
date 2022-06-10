@@ -4,16 +4,9 @@ i=1
 
 h=0
 
-while [ $i -lt 60 ]
+while [ $h -lt 12 ]
 
 
-	while [ $h -lt 12 ]
-	do
-		if [ $i -eq 60 ]
-		then 
-			echo "Hour:$h"
-		fi
-
-		echo "$i"
-		((i++))
-	done
+do
+	echo "Hour: $h"
+done
