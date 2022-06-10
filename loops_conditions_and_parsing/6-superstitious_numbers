@@ -12,8 +12,10 @@ do
 	elif [ $case -eq 8 ]
 	then
 		echo "bad luck from Japan"
-	else [ $case -eq 16 ]
+	elif [ $case -eq 16 ]
+	then
 		echo "bad luck from Italy"
-fi
-(( case++ ))
+	else
+		(( case++ ))
+	fi
 done
