@@ -4,8 +4,9 @@
 n=1
 
 while [ $n -le 100 ]
+
 do
-	if [ $n -eq 3,6,9,12,15,18,21,24,27,23 ]
+	if [ $n -eq 3 ]
 	then
 		echo "Fizz"
 	fi
