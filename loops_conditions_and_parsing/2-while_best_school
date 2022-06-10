@@ -2,7 +2,9 @@
 #This
 i=0
 while (i<10)
+do
 {
 	i++;
 }
 echo "Best School"
+done
