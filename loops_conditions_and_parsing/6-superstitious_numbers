@@ -10,12 +10,13 @@ do
 		3)
 			echo "bad luck from China"
 			;;
-		2)
+		8)
 			echo "bad luck from Japan"
 			;;
-		3)
+		16)
 			echo "bad luck from Italy"
 			;;
+		((i++))
 	esac
 done
 
