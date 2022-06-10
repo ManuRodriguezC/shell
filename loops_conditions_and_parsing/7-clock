@@ -10,9 +10,10 @@ do
 	echo "Hour: $h"
 	((h++))
 	
-	if [ $i -lt 60 ]
+	while [ $i -lt 60 ]
+	
+	do
 		echo "$i"
-	fi
-	((i++))
-
+		((i++))
+	done
 done
