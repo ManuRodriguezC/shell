@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+#This
+
+i=0
+o=10
+
+until [ $i -lt o$]
+do
+	echo "Best School"
+	((i++))
+done
+
