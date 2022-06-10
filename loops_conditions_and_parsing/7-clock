@@ -1,8 +1,19 @@
 #!/usr/bin/env bash
 #
 i=1
+
+h=0
+
 while [ $i -lt 60 ]
-do
-	echo "$i"
-	((i++))
-done
+
+
+	while [ $h -lt 12 ]
+	do
+		if [ $i -eq 60 ]
+		then 
+			echo "Hour:$h"
+		fi
+
+		echo "$i"
+		((i++))
+	done
