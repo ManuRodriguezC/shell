@@ -15,5 +15,5 @@ do
 	else [ $case -eq 16 ]
 		echo "bad luck from Italy"
 	fi
-		(( case++ ))
+	(( case++ ))
 done
