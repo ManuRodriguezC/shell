@@ -4,7 +4,7 @@
 content=0
 list=$(ls)
 
-for $content in $list
+for content in $list
 do
 	echo "$content" | cut -d "-" -f2
 done
