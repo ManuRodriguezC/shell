@@ -5,13 +5,13 @@ school=""
 if [ $school -eq -e ]
 	echo "school file exists"
 
-	if [ $school -ne -s ]
+	elif [ $school -ne -s ]
 		echo "school file is emply"
 		
-		if [ $school -eq -f ]
+		elif [ $school -eq -f ]
 			echo "school is a regular file"
 		
-	else
+	elif
 		echo "school file is not emply"
 else
 	echo "school file does not exist"
