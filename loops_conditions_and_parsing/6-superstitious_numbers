@@ -15,6 +15,6 @@ do
 	elif [ $case -eq 16 ]
 		echo "bad luck from Italy"
 	else
-	((case++))
+		(( case++ ))
 	fi
 done
