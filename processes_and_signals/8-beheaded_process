@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 #
 
-pkill -f "7-beheaded_process)"
+pkill -SIGKILL -f "7-beheaded_process)"
