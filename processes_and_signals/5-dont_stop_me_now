@@ -1,13 +1,4 @@
 #!/usr/bin/env bash
 #
-n=1
 
-while [ $n -ne 0 ]
-do
-        echo "To infinity and beyond"
-        sleep 2
-        ((n++))
-done
-
-
-kill 
+kill "$(pgrep -f ./4-to_infinity_and_beyond)
