@@ -3,7 +3,7 @@
 
 n=1
 
-while [ $n -lt 0 ]
+while [ $n -eq 0 ]
 do
 	echo "To infinity and beyond"
 	sleep 2
