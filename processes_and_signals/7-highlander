@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 
-trap "echo 'I am invincible!!!'" SIGINT
+trap "echo ' I am invincible!!! '" SIGINT
 
 n=1
 
