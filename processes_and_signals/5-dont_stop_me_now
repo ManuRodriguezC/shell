@@ -1,3 +1,13 @@
 #!/usr/bin/env bash
 #
-kill 63772
+n=1
+
+while [ $n -ne 0 ]
+do
+        echo "To infinity and beyond"
+        sleep 2
+        ((n++))
+done
+
+
+kill 
