@@ -1,15 +1,12 @@
 #!/usr/bin/env bash
 #
-mkdir /var/run/myscript.pid >> ps
 
-i=1
+echo "$$" > /var/run/myscript.pid
+trap " echo 'I hate the kill command'; rm /var/run/myscript.pid; exit" SIGTERM
+trap "rm /var/run/muscript.pid; exit" SIGQUIT
+trap " echo 'Y U no love me?!' " SIGINT
 
-while [ $i -eq 0 ]
-do
-
-        trap " echo I hate the kill command " SIGTERM
-        trap " echo Y U no love me?! " SIGINT
-        echo " To infinity and beyond"
-        ((i++))
-
+while true; do
+	echo "To infinity and beyond"
+        sleep 2
 done
